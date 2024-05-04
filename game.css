@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 10000px;
+}
+h1{
+    background-color: #081b31;
+ text-align: center;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+
+}
+.choice{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: black;
+}
+img{
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+img:hover{
+    opacity: 0.5;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.name p{
+    width: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+#user-score,#comp-score{
+    font-size: 4rem;
+    text-align: center;
+}
+.msg-container{
+    margin-top: 3rem;
+    text-align: center;
+
+}
+#msg{
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+padding: 1rem;
+border-radius: 1rem;
+}
+.instruction{
+    text-align: left;
+    width: 600px;
+    border: 2px solid black;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.divs{
+    display: flex;
+text-align: center;
+}
+.divs #stone {
+    background: url(
+'rock.jpg');
+    width: 130px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.25rem solid black;
+border-radius: 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+
+.divs #paper {
+    background: url(
+'paper.jpg');
+    border: 0.25rem solid black;
+    width: 130px;
+    height: 75px;
+    margin-top: 5%;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 10%;
+}
+.divs #scissor {
+    background: url(
+'scissor.jpg');
+    border: 0.25rem solid black;
+    width: 130px;
+    height: 75px;
+    margin-top: 5%;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 10%;
+}
